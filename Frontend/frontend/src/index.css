@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gunpla-primary: #FFFFFF;
+  --color-gunpla-secondary: #1D4ED8;
+  --color-gunpla-accent-red: #DC2626;
+  --color-gunpla-accent-yellow: #FBBF24;
+  --color-gunpla-dark: #1F2937;
+  --color-gunpla-light: #F3F4F6;
+  --font-sans: 'Inter', 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--color-gunpla-light);
+  color: var(--color-gunpla-dark);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
