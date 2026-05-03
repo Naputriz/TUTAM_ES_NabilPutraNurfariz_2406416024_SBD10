@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../api';
 import GunplaCard from '../components/GunplaCard';
 import { Globe } from 'lucide-react';
 
